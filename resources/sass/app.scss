@@ -1,0 +1,23 @@
+// This is how you might override UIkit default variables
+$global-primary-background: #491165;
+
+@import "~uikit/src/scss/variables-theme.scss";
+@import "~uikit/src/scss/mixins-theme.scss";
+@import "~uikit/src/scss/uikit-theme.scss";
+
+.filter-button {
+    width: 100%;
+    background: #673AB7;
+    color: #fff;
+    border: none;
+    font-size: 1.1em;
+    padding: 11px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.filter-button:hover {
+    opacity: 0.8;
+}
+.disabled-button {
+    background: #967aca !important;
+}
